@@ -18,11 +18,11 @@ class DiceGame{
         System.out.println("Total value:"+(a+b));
 
         if((a+b)>7){
-            System.out.println(str+" won!");
+            System.out.println("You won!");
         }
 
         else{
-            System.out.println(str+" lost...");
+            System.out.println("You lost...");
         }
     }
 }
